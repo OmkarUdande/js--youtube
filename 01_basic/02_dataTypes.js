@@ -23,4 +23,3 @@ let state;
 
 console.log(typeof undefined); //(type =undeifnd)
 console.log(typeof null);  // (type = object)
-
