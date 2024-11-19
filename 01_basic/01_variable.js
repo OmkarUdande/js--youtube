@@ -12,11 +12,21 @@ accountEmail = "omii@gmail.com"
 accountPassword = "21212121"
 accountCity = "pune"
 
-console.log(accountId);
+// console.log(accountId);
 
-/*
-prefer not to use "Var" 
-bescose the issue in block scope and functional scope
-*/
+// /*
+// prefer not to use "Var" 
+// bescose the issue in block scope and functional scope
+// */
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState])// this is the one time all the out table format 
+// console.table([accountId,accountEmail,accountPassword,accountCity,accountState])// this is the one time all the out table format 
+
+
+userId = "Sunil@gmail.com"
+userNumber = "916439XXXX"
+usereducation ="B_Tech"
+userJob = "Gov-Job"
+
+console.table([userId,userNumber,usereducation,userJob]);
+
+
