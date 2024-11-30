@@ -43,16 +43,45 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderuser);
+// console.log(tinderuser);
 // object acssin by uisng in kye value ,
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isLoggIn'));
-
-
+// console.log(tinderuser.hasOwnProperty('isLoggIn'));
 
 
- 
+
+
+const course = {
+    coursename : "js hindi youtub",
+    price : "999",
+    courseInstructor : "omkar"
+
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instactor} = course
+
+
+// console.log(courseInstructor);
+console.log(instactor);
+
+
+// API format :
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// Arrry formate API
+
+[
+    {},
+    {},
+    
+]
