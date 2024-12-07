@@ -14,14 +14,37 @@ if (true) {
 // console.log(b);
 
 // ******************nested Scope:=******************
+
+//*************
+function outer() {
+    const  outervarible = "My name is outervarible";
+
+    function inner(){
+        const innvervarible = "my name is innervrible";
+        console.log(outervarible);
+        console.log(innvervarible);
+           
+    }
+    inner();
+    console.log(outervarible);
+    //console.log(innvervarible);// innerVariable is not defined eror 
+
+}
+outer()
+
+
+// *****************8
+
 function one(){
     const username = "OMKAR"
 
     function two(){
         const webside = "youTube"
         console.log(username);
+        console.log(webside);
     }
-    // console.log(webside);
+    // console.log(webside); //sshwoing error 
+
 
     two()
         
@@ -53,7 +76,8 @@ console.log(addone(5));
 const addTwo = function(num){
     return num + 2
 }
-console.log(addTwo(5));
+// console.log(addTwo(5));
+
 
 
 
